@@ -2,6 +2,7 @@
 // eslint-disable-next-line linebreak-style
 // eslint-disable-next-line import/no-extraneous-dependencies
 const webpack = require('webpack');
+const { defineConfig } = require('@vue/cli-service')
 
 module.exports = {
   css: {
