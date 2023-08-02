@@ -1,0 +1,103 @@
+footer {
+    background-color: #c3a76c;
+    color: #153e35;
+    padding: 20px 120px !important;
+    position: relative;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    .footer-logo {
+        flex-grow: 1;
+        a {
+            img {
+                width: 237px;
+            }
+        }
+    }
+    .footer-info {
+        margin-right: 4%;
+        padding-right: 5%;
+        color: white;
+        border-right: 1px solid #6d4a2f;
+        .flex {
+            line-height: 2;
+            letter-spacing: 0.07em;
+        }
+        .imgwrap {
+            margin-right: 10px;
+            min-width: 23px;
+        }
+    }
+    .footer-other {
+        width: 12%;
+        .media {
+            display: flex;
+            justify-content: space-between;
+            li {
+                &:not(:last-child) {
+                    margin-right: 3%;
+                }
+            }
+            li:hover {
+                @media (min-width: 768px) {
+                    .hover {
+                        opacity: 1;
+                    }
+                }
+            }
+            a {
+                display: inline-block;
+                position: relative;
+                width: 49px;
+                height: 48px;
+            }
+            .hover {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                opacity: 0;
+                transition: 0.4s ease;
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+        padding: 20px 50px !important;
+    }
+    @media (max-width: 991px) {
+        padding: 30px 20px 20px !important;
+        flex-direction: column;
+        .footer-logo {
+            margin-bottom: 25px;
+            a {
+                img {
+                   width: 190px;
+                }
+            }
+        }
+        .footer-info {
+            margin-bottom: 20px;
+            border-right: none;
+            .flex {
+                line-height: 1.5;
+                &:not(:last-child) {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+        .footer-other {
+            .media {
+                justify-content: center;
+                li {
+                    &:not(:last-child) {
+                        margin-right: 18px;
+                    }
+                }
+                a {
+                    width: 33px;
+                    height: 33px;
+                }
+            }
+        }
+    }
+}
