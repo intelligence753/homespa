@@ -53,9 +53,9 @@
           Spa希望能用我們的詮釋帶出我們心中對家的感覺，讓大家來這可以感受屬於自己的溫暖，一個自己的隱形避難所，就在2020年全球環境遭受巨大改變之時，「家」Home
           Spa誕生了，讓身心疲乏，無助徬徨的妳享受最安心、最放心的環境，有妳才有「家」。
         </p>
-        <div class="btnwrap">
+        <!-- <div class="btnwrap">
           <a class="btn" href="about.php"> MORE </a>
-        </div>
+        </div> -->
         <ul>
           <li>
             <div class="wrap">
@@ -266,7 +266,7 @@
             <h3 class="f24-20">邀您一同踏上舒壓的旅程</h3>
           </div>
           <div class="arrow">
-            <a href="reservation.php"> </a>
+            <a href="https://liff.line.me/1661148667-2dKY7gPB?cname=hgLZx5Zmb7gj2DZE6US4hD&origin=other" target="_blank"> </a>
           </div>
         </div>
       </div>

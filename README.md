@@ -1,24 +1,13 @@
-# homespa
+## 目的
 
-## Project setup
-```
-npm install
-```
+此網站為朋友的工作室官網，希望使用者/客戶透過瀏覽網站獲取服務資訊，有足夠的了解才會促使他們願意預約服務。此站的目的是希望能增加工作室的曝光且提升使用者預約意願。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 功能
 
-### Compiles and minifies for production
-```
-npm run build
-```
+查詢現有服務與價格
 
-### Lints and fixes files
-```
-npm run lint
-```
+預約可以直接導入工作室的預約系統
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 簡述
+
+第一次使用Vue製作專案，有些部分還在和設計與朋友討論修改，會慢慢將不齊全的地方補齊。

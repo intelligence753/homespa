@@ -7,17 +7,17 @@
     </div>
     <nav class="container-menu">
       <ul class="menu">
-        <li class="main">
+        <!-- <li class="main">
           <router-link class="main-title" to="/#about">
             <div class="f18">關於我們</div>
             <div class="f16">ABOUT</div>
           </router-link>
-        </li>
+        </li> -->
         <li class="main">
-          <router-link class="main-title" to="/reservation">
+          <a class="main-title" href="https://liff.line.me/1661148667-2dKY7gPB?cname=hgLZx5Zmb7gj2DZE6US4hD&origin=other" target="_blank">
             <div class="f18">預約體驗</div>
             <div class="f16">RESERVATION</div>
-          </router-link>
+          </a>
         </li>
         <li class="main">
           <router-link class="main-title" to="/#service">
@@ -25,17 +25,17 @@
             <div class="f16">SERVICE</div>
           </router-link>
         </li>
-        <li class="main">
+        <!-- <li class="main">
           <router-link class="main-title" to="/product">
             <div class="f18">產品項目</div>
             <div class="f16">PRODUCTS</div>
           </router-link>
-        </li>
+        </li> -->
       </ul>
     </nav>
     <div class="container-icon">
       <!-- 已登入會員 $('.member').addClass('active') -->
-      <div class="member">
+      <!-- <div class="member">
         <a href="javascript:;">
           <img class="default" src="../assets/images/member_icon.png" alt="尚未登入會員" />
           <img class="hover" src="../assets/images/member_icon_active.png" alt="會員icon hover" />
@@ -61,16 +61,16 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> -->
       <!-- 購物車友商品 $('.cart').addClass('active') -->
-      <div class="cart active">
+      <!-- <div class="cart active">
         <a href="cart.php">
           <img class="default" src="../assets/images/bag.png" alt="cart" />
           <img class="hover" src="../assets/images/bag_active.png" alt="cart hover" />
           <img class="active" src="../assets/images/bag_active.png" alt="cart active" />
           <div class="amount">1</div>
         </a>
-      </div>
+      </div> -->
     </div>
     <div class="container-burger">
       <div class="burger">
